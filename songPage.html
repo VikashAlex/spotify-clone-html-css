@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="data:," />
+    <link
+      rel="icon"
+      sizes="16x16"
+      type="image/png"
+      href="https://open.spotifycdn.com/cdn/images/favicon16.1c487bff.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="flex">
+      <div class="logo flex"><img src="images/logo.svg" alt="" /></div>
+      <div class="search-song flex">
+        <div class="home-icon">
+          <a href="index.html">
+            <img src="images/home.svg" alt="home" style="height: 28px" />
+          </a>
+        </div>
+        <div class="search-box flex">
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="input-box">
+            <input type="text" placeholder="What do you want to play?" />
+          </div>
+          <div class="browser-box">
+            <img
+              src="images/card-song.svg"
+              alt="browser"
+              style="height: 25px"
+            />
+          </div>
+        </div>
+      </div>
+      <nav>
+        <ul class="flex">
+          <li><a href="">Premium</a></li>
+          <li><a href="">Support</a></li>
+          <li><a href="">Download</a></li>
+        </ul>
+      </nav>
+      <div class="button-box flex">
+        <div class="app-install flex">
+          <i class="fa-solid fa-arrow-down"></i> <a href="">Install App</a>
+        </div>
+        <div class="signup-btn"><a href="">Sign up</a></div>
+        <a href="login.html"><div class="login-btn flex">Log in</div></a>
+      </div>
+    </header>
+    <section class="flex">
+      <div class="left">
+        <div class="heading-box flex">
+          <span>Your Library</span>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="Library-box flex">
+          <div class="library-item-box">
+            <span>Create your first playlist</span>
+            <p>It's easy, we'll help you</p>
+            <button>Create playlist</button>
+          </div>
+
+          <div class="library-item-box">
+            <span>Let's find some podcasts to follow</span>
+            <p>We'll keep you updated on new episodes</p>
+            <button>Browse podcasts</button>
+          </div>
+        </div>
+        <div class="left-footer">
+          <div class="left-fo-links">
+            <ul>
+              <li><a href="">Legal</a></li>
+              <li><a href="">Safety & Privacy Center</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Cookies</a></li>
+              <li><a href="">About Ads</a></li>
+              <li><a href="">Accessibility</a></li>
+            </ul>
+            <p><a href="">Cookies</a></p>
+          </div>
+          <div class="btn">
+            <button class="flex">
+              <i class="fa-solid fa-globe"></i> English
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="right " id="right-song" >
+       <div id="songff">
+        <div class="song-page" id="song-page" >
+
+            <div class="song-main-title">
+                <div class="song-cover-img"><img  id="cover-img" aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e024c81f86297c2e3fac6a4c6cd" alt="2 Khatole (Lofi Mix)" class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj" srcset="https://i.scdn.co/image/ab67616d00001e024c81f86297c2e3fac6a4c6cd 150w, https://i.scdn.co/image/ab67616d00001e024c81f86297c2e3fac6a4c6cd 300w, https://i.scdn.co/image/ab67616d0000b2734c81f86297c2e3fac6a4c6cd 320w, https://i.scdn.co/image/ab67616d0000b2734c81f86297c2e3fac6a4c6cd 640w" sizes="(min-width: 1280px) 232px, 192px"></div>
+                <div class="song-big-t">
+                    <p>Single</p>
+                    <h1>2 Khatole (Lofi Mix)</h1>
+                    <div class="main-song-singer">
+                        <img  aria-hidden="false" draggable="false" loading="eager" src="https://i.scdn.co/image/ab6761610000f1789eac673239bf8cceea5bb395" alt="Masoom Sharma" class="mMx2LUixlnN_Fu45JpFB Xz3tlahv16UpqKBW5HdK Yn2Ei5QZn19gria6LjZj">
+                       <p>Masoom Sharma</p>
+                       <li>2025</li>
+                       <li>1 song, 2 min 28 sec</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="play-bar">
+          <!-- <div class="play-list"><div class="play-btn-song playnewpage"><i class="fa-solid fa-play"></i></div></div>
+          <div class="titlehash"></div>
+          <div class="listtime-song"></div>
+          <div class="datesong"></div> -->
+          <img src="images/sonhbb.png" alt="" style="width: 100%; object-fit: cover;">
+        </div>
+      </div>
+
+
+        <div class="heading-box-r">
+          <h2>Popular albums and singles</h2>
+          <span><a href="">Show all</a></span>
+        </div>
+
+        <div class="Songs-card-row flex Songs-card-row3">
+          <div class="song-card song-card3">
+            <div class="song-img">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-title">Yeh Jawaani Hai Deewani</div>
+            <div class="song-info">Pritam</div>
+          </div>
+
+          <div class="song-card song-card3">
+            <div class="song-img">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67616d00001e02f000fdbe92e9a1058034fd33"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-title">Sanam Teri Kasam (Original Motion...</div>
+            <div class="song-info">
+              Himesh Reshammiya, Sameer Anjaan, Subrat...
+            </div>
+          </div>
+
+          <div class="song-card song-card3">
+            <div class="song-img">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67616d00001e02a5183fa4b99bcec1f506418d"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-title">Young G.O.A.T</div>
+            <div class="song-info">Cheema Y, Gur Sidhu</div>
+          </div>
+
+          <div class="song-card song-card3">
+            <div class="song-img">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-title">Aashiqui 2</div>
+            <div class="song-info">Mithoon, Ankit Tiwari, Jeet Gannguli</div>
+          </div>
+
+          <div class="song-card song-card3">
+            <div class="song-img">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-title">Glory</div>
+            <div class="song-info">Yo Yo Honey Singh</div>
+          </div>
+        </div>
+
+       
+
+        <div class="right-footer">
+
+        <div class="r-footer-links">
+          <ul>
+            <li><h3>Company</h3></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Jobs</a></li>
+            <li><a href="">For the Record</a></li>
+          </ul>
+
+          <ul>
+            <li><h3>Communities</h3></li>
+            <li><a href="">For Artists</a></li>
+            <li><a href="">Developers</a></li>
+            <li><a href="">Advertising</a></li>
+            <li><a href="">Investors</a></li>
+            <li><a href="">Vendors</a></li>
+          </ul>
+
+          <ul>
+            <li><h3>Useful links</h3></li>
+            <li><a href="">Support</a></li>
+            <li><a href="">Free Mobile App</a></li>
+          </ul>
+
+          <ul>
+            <li><h3>Spotify Plans</h3></li>
+            <li><a href="">Premium Individual</a></li>
+            <li><a href="">Premium Duo</a></li>
+            <li><a href="">Premium Family</a></li>
+            <li><a href="">Premium Student</a></li>
+            <li><a href="">Spotify Free</a></li>
+          </ul>
+
+          <ul>
+            <div class="social-icon">
+                <a href="https://instagram.com/your_username" target="_blank">
+                    <i class="fab fa-instagram" style="font-size: 24px; margin: 0 10px;"></i>
+                  </a>
+                  <a href="https://twitter.com/your_username" target="_blank">
+                    <i class="fab fa-twitter" style="font-size: 24px; margin: 0 10px;"></i>
+                  </a>
+                  <a href="https://facebook.com/your_username" target="_blank">
+                    <i class="fab fa-facebook" style="font-size: 24px; margin: 0 10px;"></i>
+                  </a>
+            </div>
+          </ul>
+        </div>
+        <p>© 2025 Spotify AB</p>
+        </div>
+
+        
+      </div>
+    </section>
+
+    <footer class="flex">
+      <div class="heading-fo">
+        <span>Preview of Spotify</span>
+        <p>
+          Sign up to get unlimited songs and podcasts with occasional ads. No
+          credit card needed.
+        </p>
+      </div>
+      <div class="btn-fo"><button>Sign up free</button></div>
+    </footer>
+  </body>
+
+</html>

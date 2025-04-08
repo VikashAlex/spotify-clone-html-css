@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="data:," />
+    <link
+      rel="icon"
+      sizes="16x16"
+      type="image/png"
+      href="https://open.spotifycdn.com/cdn/images/favicon16.1c487bff.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="flex">
+      <div class="logo flex"><img src="images/logo.svg" alt="" /></div>
+      <div class="search-song flex">
+        <div class="home-icon">
+          <a href="index.html">
+          <img src="images/home.svg" alt="home" style="height: 28px" />
+        </a>
+        </div>
+        <div class="search-box flex">
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="input-box">
+            <input type="text" placeholder="What do you want to play?" />
+          </div>
+          <div class="browser-box">
+            <img
+              src="images/card-song.svg"
+              alt="browser"
+              style="height: 25px"
+            />
+          </div>
+        </div>
+      </div>
+      <nav>
+        <ul class="flex">
+          <li><a href="">Premium</a></li>
+          <li><a href="">Support</a></li>
+          <li><a href="">Download</a></li>
+        </ul>
+      </nav>
+      <div class="button-box flex">
+        <div class="app-install flex">
+          <i class="fa-solid fa-arrow-down"></i> <a href="">Install App</a>
+        </div>
+        <div class="signup-btn"><a href="">Sign up</a></div>
+        <a href="login.html"><div class="login-btn flex">Log in</div></a>
+      </div>
+    </header>
+    <section class="flex">
+      <div class="left">
+        <div class="heading-box flex">
+          <span>Your Library</span>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="Library-box flex">
+          <div class="library-item-box">
+            <span>Create your first playlist</span>
+            <p>It's easy, we'll help you</p>
+            <button>Create playlist</button>
+          </div>
+
+          <div class="library-item-box">
+            <span>Let's find some podcasts to follow</span>
+            <p>We'll keep you updated on new episodes</p>
+            <button>Browse podcasts</button>
+          </div>
+        </div>
+        <div class="left-footer">
+          <div class="left-fo-links">
+            <ul>
+              <li><a href="">Legal</a></li>
+              <li><a href="">Safety & Privacy Center</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Cookies</a></li>
+              <li><a href="">About Ads</a></li>
+              <li><a href="">Accessibility</a></li>
+            </ul>
+            <p><a href="">Cookies</a></p>
+          </div>
+          <div class="btn">
+            <button class="flex">
+              <i class="fa-solid fa-globe"></i> English
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="heading-box-r">
+          <h2>Trending Songs</h2>
+          <span><a href="">Show all</a></span>
+        </div>
+
+        <a href="songPage.html">
+          <div class="Songs-card-row flex">
+            <div class="song-card">
+              <div class="song-img">
+                <img
+                  aria-hidden="false"
+                  draggable="false"
+                  loading="lazy"
+                  src="https://i.scdn.co/image/ab67616d00001e024c81f86297c2e3fac6a4c6cd"
+                  data-testid="card-image"
+                  alt=""
+                  class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+                />
+                <div class="play-btn-song">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+              </div>
+              <div class="song-title">2 Khatole (Lofi Mix)</div>
+              <div class="song-info">Masoom Sharma</div>
+            </div>
+
+            <div class="song-card">
+              <div class="song-img">
+                <img
+                  aria-hidden="false"
+                  draggable="false"
+                  loading="lazy"
+                  src="https://i.scdn.co/image/ab67616d00001e0285c5968be0d0d9c545241124"
+                  data-testid="card-image"
+                  alt=""
+                  class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+                />
+                <div class="play-btn-song">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+              </div>
+              <div class="song-title">Pal Pal</div>
+              <div class="song-info">Afusic, AliSoomroMusic</div>
+            </div>
+
+            <div class="song-card">
+              <div class="song-img">
+                <img
+                  aria-hidden="false"
+                  draggable="false"
+                  loading="lazy"
+                  src="https://i.scdn.co/image/ab67616d00001e028d850214bdd320856fb9c4c2"
+                  data-testid="card-image"
+                  alt=""
+                  class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+                />
+                <div class="play-btn-song">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+              </div>
+              <div class="song-title">48 Rhymes</div>
+              <div class="song-info">Karan Aujla, Manna Music</div>
+            </div>
+
+            <div class="song-card">
+              <div class="song-img">
+                <img
+                  aria-hidden="false"
+                  draggable="false"
+                  loading="lazy"
+                  src="https://i.scdn.co/image/ab67616d00001e02931b61b7382db17ed15e75fc"
+                  data-testid="card-image"
+                  alt=""
+                  class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+                />
+                <div class="play-btn-song">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+              </div>
+              <div class="song-title">Maand</div>
+              <div class="song-info">Bayaan, Hasan Raheem, Rovalio</div>
+            </div>
+
+            <div class="song-card">
+              <div class="song-img">
+                <img src="images/song1.jfif" alt="song1" />
+                <div class="play-btn-song">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+              </div>
+              <div class="song-title">Finding Her</div>
+              <div class="song-info">kushagra, Bharath, Saaheal</div>
+            </div>
+          </div>
+        </a>
+
+        <div class="heading-box-r">
+          <h2>Popular artists</h2>
+          <span><a href="">Show all</a></span>
+        </div>
+
+        <div class="Songs-card-row flex">
+          <div class="song-card song-card2">
+            <div class="song-img Popular-artists">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 MxmW8QkHqHWtuhO589PV Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-title">Pritam</div>
+            <div class="song-info">Artist</div>
+          </div>
+
+          <div class="song-card song-card2">
+            <div class="song-img Popular-artists">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 MxmW8QkHqHWtuhO589PV Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-title">Arijit Singh</div>
+            <div class="song-info">Artist</div>
+          </div>
+
+          <div class="song-card song-card2">
+            <div class="song-img Popular-artists">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 MxmW8QkHqHWtuhO589PV Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-title">A.R.Rahman</div>
+            <div class="song-info">Artist</div>
+          </div>
+
+          <div class="song-card song-card2">
+            <div class="song-img Popular-artists">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67616100005174b69f6182a27407318b632a5f"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 MxmW8QkHqHWtuhO589PV Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-title">Sachin-Jigar</div>
+            <div class="song-info">Artist</div>
+          </div>
+
+          <div class="song-card song-card2">
+            <div class="song-img Popular-artists">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab6761610000517490b6c3d093f9b02aad628eaf"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 MxmW8QkHqHWtuhO589PV Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-title">Vishal-Shekhar</div>
+            <div class="song-info">Artist</div>
+          </div>
+        </div>
+
+        <div class="heading-box-r">
+          <h2>Popular albums and singles</h2>
+          <span><a href="">Show all</a></span>
+        </div>
+
+        <div class="Songs-card-row flex Songs-card-row3">
+          <div class="song-card song-card3">
+            <div class="song-img">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-title">Yeh Jawaani Hai Deewani</div>
+            <div class="song-info">Pritam</div>
+          </div>
+
+          <div class="song-card song-card3">
+            <div class="song-img">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67616d00001e02f000fdbe92e9a1058034fd33"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-title">Sanam Teri Kasam (Original Motion...</div>
+            <div class="song-info">
+              Himesh Reshammiya, Sameer Anjaan, Subrat...
+            </div>
+          </div>
+
+          <div class="song-card song-card3">
+            <div class="song-img">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67616d00001e02a5183fa4b99bcec1f506418d"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-title">Young G.O.A.T</div>
+            <div class="song-info">Cheema Y, Gur Sidhu</div>
+          </div>
+
+          <div class="song-card song-card3">
+            <div class="song-img">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-title">Aashiqui 2</div>
+            <div class="song-info">Mithoon, Ankit Tiwari, Jeet Gannguli</div>
+          </div>
+
+          <div class="song-card song-card3">
+            <div class="song-img">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-title">Glory</div>
+            <div class="song-info">Yo Yo Honey Singh</div>
+          </div>
+        </div>
+
+        <div class="heading-box-r">
+          <h2>Popular radio</h2>
+          <span><a href="">Show all</a></span>
+        </div>
+
+        <div class="Songs-card-row flex Songs-card-row4">
+          <div class="song-card song-card4">
+            <div class="song-img">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-info">
+              With Sachin-Jigar, Mithoon, Amit Trivedi...
+            </div>
+          </div>
+
+          <div class="song-card song-card4">
+            <div class="song-img">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0oOet2f43PA68X5RxKobEy/en"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-info">
+              With Vishal-Shekhar, A.R. Rahman, Ajay-At...
+            </div>
+          </div>
+
+          <div class="song-card song-card4">
+            <div class="song-img">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2FKWNmZWDBZR4dE5KX4plR/en"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-info">With Karan Aujla, Shubh, Sidhu Moose...</div>
+          </div>
+
+          <div class="song-card song-card4">
+            <div class="song-img">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4fEkbug6kZzzJ8eYX6Kbbp/en"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-info">
+              With Armaan Malik, Mohit Chauhan, Anki..
+            </div>
+          </div>
+
+          <div class="song-card song-card4">
+            <div class="song-img">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2ae6PxICSOZHvjqiCcgon8/en"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-info">With Swarnalatha, Deva, Annamayya...</div>
+          </div>
+        </div>
+
+        <div class="heading-box-r">
+          <h2>Featured Charts</h2>
+          <span><a href="">Show all</a></span>
+        </div>
+
+        <div class="Songs-card-row flex Songs-card-row4">
+          <div class="song-card song-card4">
+            <div class="song-img">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-info">
+              Your weekly update of the most played trac...
+            </div>
+          </div>
+
+          <div class="song-card song-card4">
+            <div class="song-img">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_in_default.jpg"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-info">
+              Your weekly update of the most played trac...
+            </div>
+          </div>
+
+          <div class="song-card song-card4">
+            <div class="song-img">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-info">
+              Your weekly update of the most played trac..
+            </div>
+          </div>
+
+          <div class="song-card song-card4">
+            <div class="song-img">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_in_default.jpg"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-info">
+              Your weekly update of the most played trac...
+            </div>
+          </div>
+
+          <div class="song-card song-card4">
+            <div class="song-img">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_global_default.jpg"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-info">
+              Your weekly update of the most played trac...
+            </div>
+          </div>
+        </div>
+
+        <div class="heading-box-r">
+          <h2>India's Best</h2>
+          <span><a href="">Show all</a></span>
+        </div>
+
+        <div class="Songs-card-row flex Songs-card-row4">
+          <div class="song-card song-card4">
+            <div class="song-img">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67706f00000002db51470ffe92dddd624dab8e"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-info">
+              Check out the songs Bengaluru is vibing to!
+            </div>
+          </div>
+
+          <div class="song-card song-card4">
+            <div class="song-img">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67706f0000000259d8739fbdb217fa77fecac3"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-info">
+              Check out the songs Bengaluru is vibing to!
+            </div>
+          </div>
+
+          <div class="song-card song-card4">
+            <div class="song-img">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67706f000000028f10ecc2be9126b2309ea5fd"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-info">
+              Bollywood Central, jab baje toh seedha dil k..
+            </div>
+          </div>
+
+          <div class="song-card song-card4">
+            <div class="song-img">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67706f00000002e863ce9df6955fed82d56257"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-info">
+              Hottest tracks from your favourite I-Pop...
+            </div>
+          </div>
+
+          <div class="song-card song-card4">
+            <div class="song-img">
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67706f0000000236c8249fea736cd36978a562"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj"
+              />
+              <div class="play-btn-song"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="song-info">India's Rap Scene. Cover - Badshah</div>
+          </div>
+        </div>
+
+        <div class="right-footer">
+          <div class="r-footer-links">
+            <ul>
+              <li><h3>Company</h3></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Jobs</a></li>
+              <li><a href="">For the Record</a></li>
+            </ul>
+
+            <ul>
+              <li><h3>Communities</h3></li>
+              <li><a href="">For Artists</a></li>
+              <li><a href="">Developers</a></li>
+              <li><a href="">Advertising</a></li>
+              <li><a href="">Investors</a></li>
+              <li><a href="">Vendors</a></li>
+            </ul>
+
+            <ul>
+              <li><h3>Useful links</h3></li>
+              <li><a href="">Support</a></li>
+              <li><a href="">Free Mobile App</a></li>
+            </ul>
+
+            <ul>
+              <li><h3>Spotify Plans</h3></li>
+              <li><a href="">Premium Individual</a></li>
+              <li><a href="">Premium Duo</a></li>
+              <li><a href="">Premium Family</a></li>
+              <li><a href="">Premium Student</a></li>
+              <li><a href="">Spotify Free</a></li>
+            </ul>
+
+            <ul>
+              <div class="social-icon">
+                <a href="https://instagram.com/your_username" target="_blank">
+                  <i
+                    class="fab fa-instagram"
+                    style="font-size: 24px; margin: 0 10px"
+                  ></i>
+                </a>
+                <a href="https://twitter.com/your_username" target="_blank">
+                  <i
+                    class="fab fa-twitter"
+                    style="font-size: 24px; margin: 0 10px"
+                  ></i>
+                </a>
+                <a href="https://facebook.com/your_username" target="_blank">
+                  <i
+                    class="fab fa-facebook"
+                    style="font-size: 24px; margin: 0 10px"
+                  ></i>
+                </a>
+              </div>
+            </ul>
+          </div>
+          <p>© 2025 Spotify AB</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="flex">
+      <div class="heading-fo">
+        <span>Preview of Spotify</span>
+        <p>
+          Sign up to get unlimited songs and podcasts with occasional ads. No
+          credit card needed.
+        </p>
+      </div>
+      <div class="btn-fo"><button>Sign up free</button></div>
+    </footer>
+  </body>
+  
+</html>
